@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+video.zip filter=lfs diff=lfs merge=lfs -text
+MainTool.zip filter=lfs diff=lfs merge=lfs -text
